@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    # <--- ¡Elimina la línea 'environment:' si no vas a definir variables aquí!
+    # Si la dejas, debe tener al menos una variable de entorno o un valor nulo explícito.
+    # Ejemplo de valor nulo:
+    # environment: {}
+    # Pero lo más limpio es eliminarla si no se usa.
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      # MMYSQL_ROOT_PASSWORD: H0t3l             # Dejamos H0t3l por si acaso, aunque el log diga que lo ignora
+      MYSQL_DATABASE: resort
+    volumes:
+      - ./resort.sql:/docker-entrypoint-initdb.d/resort.sql
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

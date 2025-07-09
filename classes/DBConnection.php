@@ -20,8 +20,8 @@ class DBConnection{
             if (!$this->conn) {
                 echo 'Cannot connect to database server';
                 exit;
-            }            
-        }    
+            }
+        }
         
     }
     public function __destruct(){

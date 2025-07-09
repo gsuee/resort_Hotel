@@ -40,7 +40,7 @@
                                 <small class="px-3 text-muted">Nombre</small>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control form-control-sm form-control-border" id="contact" name="contact" required placeholder="+57 3xx-xxxxxxx">
+                                <input type="text" class="form-control form-control-sm form-control-border" id="contact" name="contact" required placeholder="+58 3xx-xxxxxxx">
                                 <small class="px-3 text-muted"># de Contacto</small>
                             </div>
                         </div>

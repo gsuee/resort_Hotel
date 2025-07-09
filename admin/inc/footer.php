@@ -60,7 +60,7 @@
         <?php echo $_settings->info('short_name') ?>
 
         <div class="float-right d-none d-sm-inline-block">
-          <b>Para más desarrollos <a href="https://configuroweb.com" target="blank">ConfiguroWeb</a></b>
+          <b>Para más desarrollos <a href="" target="blank">ProCode</a></b>
         </div>
       </footer>
     </div>

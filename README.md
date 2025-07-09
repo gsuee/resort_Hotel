@@ -1,7 +1,6 @@
-# Sistema de Gestión Hotelera en PHP y MySQL
-<img src="Sistema%20de%20Gestión%20Hotelera%20en%20PHP%20y%20MySQL.png">
+# Gestión Hotelera en PHP y MySQL
 <!-- wp:paragraph {"extUtilities":[]} -->
-<p>Este Sistema de Gestión Hotelera en PHP y MySQL le permite al usuario administrador:</p>
+<p>Gestión Hotelera en PHP y MySQL le permite al usuario administrador:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"type":"rich","extUtilities":[]} -->
@@ -16,21 +15,11 @@
 <p>El usuario final de perfil cliente, puede visualizar realizar sus Reservas de los Cuartos de Hotel y gestionar consultas a través de la página de Contacto.</p>
 <!-- /wp:paragraph -->
 
-# Importante
+# Users
 
-La aplicación tiene un coste de 15 USD y para su implementación requieres la base de datos y es la que te proveo a cambio del importe.
-
-# Enlace demo de la aplicación
-
-https://mauriciosevilla.com/resort/admin/login.php
 Usuario: configuroweb
 Clave: 1234abcd..
 
-# Contacto
+Usuario: admin0101
+Clave: 1234abcd..
 
-Me puedes contactar directamente a mi whats en el siguiente número
-https://configuroweb.com/WhatsappMessenger
-
-# El siguiente es el post relacionado con la aplicación
-
-https://www.configuroweb.com/sistema-de-gestion-hotelera-en-php-y-mysql/
